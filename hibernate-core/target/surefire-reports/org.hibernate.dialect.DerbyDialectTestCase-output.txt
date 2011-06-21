@@ -1,0 +1,10 @@
+01:48:31,950  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DerbyDialectTestCase$LocalDerbyDialect
+01:48:31,952  WARN DerbyDialect:70 - Unable to load/access derby driver class sysinfo to check versions : java.lang.ClassNotFoundException: org.apache.derby.tools.sysinfo
+01:48:31,954  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DerbyDialectTestCase$LocalDerbyDialect
+01:48:31,956  WARN DerbyDialect:70 - Unable to load/access derby driver class sysinfo to check versions : java.lang.ClassNotFoundException: org.apache.derby.tools.sysinfo
+01:48:31,956  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DerbyDialectTestCase$LocalDerbyDialect
+01:48:31,957  WARN DerbyDialect:70 - Unable to load/access derby driver class sysinfo to check versions : java.lang.ClassNotFoundException: org.apache.derby.tools.sysinfo
+01:48:31,958  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DerbyDialectTestCase$LocalDerbyDialect
+01:48:31,959  WARN DerbyDialect:70 - Unable to load/access derby driver class sysinfo to check versions : java.lang.ClassNotFoundException: org.apache.derby.tools.sysinfo
+01:48:31,959  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DerbyDialectTestCase$LocalDerbyDialect
+01:48:31,960  WARN DerbyDialect:70 - Unable to load/access derby driver class sysinfo to check versions : java.lang.ClassNotFoundException: org.apache.derby.tools.sysinfo

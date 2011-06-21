@@ -1,0 +1,4 @@
+01:48:31,990  INFO BasicTypeRegistry:150 - Type registration [uuid-char] overrides previous : org.hibernate.type.UUIDCharType@de16483
+01:48:31,990  INFO BasicTypeRegistry:150 - Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@488ddb93
+01:48:31,999  INFO BasicTypeRegistry:150 - Type registration [key] overrides previous : org.hibernate.type.CustomType@26c59ad5
+01:48:32,000  INFO BasicTypeRegistry:150 - Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@488ddb93

@@ -1,0 +1,243 @@
+01:48:32,542  INFO HibernateServiceMBean:62 - starting service at JNDI name: SessionFactory
+01:48:32,542  INFO HibernateServiceMBean:63 - service properties: {hibernate.session_factory_name=SessionFactory}
+01:48:32,543  INFO Configuration:789 - Reading mappings from resource : org/hibernate/jmx/Entity.hbm.xml
+01:48:32,581  INFO HbmBinder:353 - Mapping class: org.hibernate.jmx.Entity -> Entity
+01:48:32,588  INFO Configuration:1676 - Hibernate Validator not found: ignoring
+01:48:32,595  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+01:48:32,597  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+01:48:32,598  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+01:48:32,599  WARN UserSuppliedConnectionProvider:46 - No connection properties specified - the user must supply JDBC connections
+01:48:32,599  INFO HibernateServiceMBean:43 - Could not build SessionFactory using the MBean classpath - will try again using client classpath: 'hibernate.dialect' must be set when no Connection available
+01:48:32,601  INFO SessionFactoryObjectFactory:109 - Factory name: SessionFactory
+01:48:32,606  INFO NamingHelper:49 - JNDI InitialContext properties:{}
+01:48:32,639  WARN SessionFactoryObjectFactory:121 - Could not bind factory to JNDI
+javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:342)
+	at javax.naming.InitialContext.getNameParser(InitialContext.java:497)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:75)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.jmx.SessionFactoryStub.<init>(SessionFactoryStub.java:80)
+	at org.hibernate.jmx.HibernateService.start(HibernateService.java:45)
+	at org.hibernate.jmx.TrivialTest.testService(TrivialTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+01:48:32,640  INFO HibernateServiceMBean:50 - stopping service
+01:48:32,640  INFO NamingHelper:49 - JNDI InitialContext properties:{}
+01:48:32,640  WARN HibernateServiceMBean:57 - exception while stopping service
+javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:342)
+	at javax.naming.InitialContext.lookup(InitialContext.java:409)
+	at org.hibernate.jmx.HibernateService.stop(HibernateService.java:53)
+	at org.hibernate.jmx.TrivialTest.testService(TrivialTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+01:48:32,641  INFO HibernateServiceMBean:62 - starting service at JNDI name: SessionFactory
+01:48:32,641  INFO HibernateServiceMBean:63 - service properties: {hibernate.session_factory_name=SessionFactory, foo=bar}
+01:48:32,642  INFO Configuration:789 - Reading mappings from resource : org/hibernate/jmx/Entity.hbm.xml
+01:48:32,712  INFO HbmBinder:353 - Mapping class: org.hibernate.jmx.Entity -> Entity
+01:48:32,722  INFO Configuration:1676 - Hibernate Validator not found: ignoring
+01:48:32,722  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+01:48:32,724  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+01:48:32,725  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+01:48:32,726  WARN UserSuppliedConnectionProvider:46 - No connection properties specified - the user must supply JDBC connections
+01:48:32,726  INFO HibernateServiceMBean:43 - Could not build SessionFactory using the MBean classpath - will try again using client classpath: 'hibernate.dialect' must be set when no Connection available
+01:48:32,726  INFO SessionFactoryObjectFactory:109 - Factory name: SessionFactory
+01:48:32,726  INFO NamingHelper:49 - JNDI InitialContext properties:{}
+01:48:32,727  WARN SessionFactoryObjectFactory:121 - Could not bind factory to JNDI
+javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:342)
+	at javax.naming.InitialContext.getNameParser(InitialContext.java:497)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:75)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.jmx.SessionFactoryStub.<init>(SessionFactoryStub.java:80)
+	at org.hibernate.jmx.HibernateService.start(HibernateService.java:45)
+	at org.hibernate.jmx.TrivialTest.testService(TrivialTest.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+01:48:32,734  INFO HibernateServiceMBean:50 - stopping service
+01:48:32,734  INFO NamingHelper:49 - JNDI InitialContext properties:{}
+01:48:32,735  WARN HibernateServiceMBean:57 - exception while stopping service
+javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:342)
+	at javax.naming.InitialContext.lookup(InitialContext.java:409)
+	at org.hibernate.jmx.HibernateService.stop(HibernateService.java:53)
+	at org.hibernate.jmx.TrivialTest.testService(TrivialTest.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+01:48:32,735  INFO HibernateServiceMBean:62 - starting service at JNDI name: SessionFactory
+01:48:32,735  INFO HibernateServiceMBean:63 - service properties: {hibernate.session_factory_name=SessionFactory, foo=bar}
+01:48:32,736  INFO Configuration:789 - Reading mappings from resource : non-existent
+01:48:32,737  INFO HibernateServiceMBean:43 - Could not build SessionFactory using the MBean classpath - will try again using client classpath: resource: non-existent not found
+01:48:32,737  INFO SessionFactoryObjectFactory:109 - Factory name: SessionFactory
+01:48:32,738  INFO NamingHelper:49 - JNDI InitialContext properties:{}
+01:48:32,738  WARN SessionFactoryObjectFactory:121 - Could not bind factory to JNDI
+javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:342)
+	at javax.naming.InitialContext.getNameParser(InitialContext.java:497)
+	at org.hibernate.util.NamingHelper.bind(NamingHelper.java:75)
+	at org.hibernate.impl.SessionFactoryObjectFactory.addInstance(SessionFactoryObjectFactory.java:113)
+	at org.hibernate.jmx.SessionFactoryStub.<init>(SessionFactoryStub.java:80)
+	at org.hibernate.jmx.HibernateService.start(HibernateService.java:45)
+	at org.hibernate.jmx.TrivialTest.testService(TrivialTest.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+01:48:32,739  INFO HibernateServiceMBean:50 - stopping service
+01:48:32,739  INFO NamingHelper:49 - JNDI InitialContext properties:{}
+01:48:32,746  WARN HibernateServiceMBean:57 - exception while stopping service
+javax.naming.NoInitialContextException: Need to specify class name in environment or system property, or as an applet parameter, or in an application resource file:  java.naming.factory.initial
+	at javax.naming.spi.NamingManager.getInitialContext(NamingManager.java:662)
+	at javax.naming.InitialContext.getDefaultInitCtx(InitialContext.java:305)
+	at javax.naming.InitialContext.getURLOrDefaultInitCtx(InitialContext.java:342)
+	at javax.naming.InitialContext.lookup(InitialContext.java:409)
+	at org.hibernate.jmx.HibernateService.stop(HibernateService.java:53)
+	at org.hibernate.jmx.TrivialTest.testService(TrivialTest.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at junit.framework.TestCase.runTest(TestCase.java:154)
+	at junit.framework.TestCase.runBare(TestCase.java:127)
+	at junit.framework.TestResult$1.protect(TestResult.java:106)
+	at junit.framework.TestResult.runProtected(TestResult.java:124)
+	at junit.framework.TestResult.run(TestResult.java:109)
+	at junit.framework.TestCase.run(TestCase.java:118)
+	at junit.framework.TestSuite.runTest(TestSuite.java:208)
+	at junit.framework.TestSuite.run(TestSuite.java:203)
+	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.junit.JUnitTestSet.execute(JUnitTestSet.java:213)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.executeTestSet(AbstractDirectoryTestSuite.java:140)
+	at org.apache.maven.surefire.suite.AbstractDirectoryTestSuite.execute(AbstractDirectoryTestSuite.java:127)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
