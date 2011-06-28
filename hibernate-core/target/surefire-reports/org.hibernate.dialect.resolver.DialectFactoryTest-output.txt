@@ -1,39 +1,40 @@
-01:48:30,563  INFO DriverManagerConnectionProvider:170 - cleaning up connection pool: jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1
-01:48:30,912  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
-01:48:30,914  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
-01:48:31,008  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
-01:48:31,009  INFO Dialect:135 - Using dialect: org.hibernate.dialect.H2Dialect
-01:48:31,010  INFO Dialect:135 - Using dialect: org.hibernate.dialect.MySQLDialect
-01:48:31,079  INFO Dialect:135 - Using dialect: org.hibernate.dialect.PostgreSQLDialect
-01:48:31,246  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DerbyDialect
-01:48:31,527  WARN DerbyDialect:70 - Unable to load/access derby driver class sysinfo to check versions : java.lang.ClassNotFoundException: org.apache.derby.tools.sysinfo
-01:48:31,528  WARN StandardDialectResolver:95 - Unknown Ingres major version [-9999] using Ingres 9.2 dialect
-01:48:31,528  INFO Dialect:135 - Using dialect: org.hibernate.dialect.IngresDialect
-01:48:31,529  WARN StandardDialectResolver:95 - Unknown Ingres major version [-9999] using Ingres 9.2 dialect
-01:48:31,529  INFO Dialect:135 - Using dialect: org.hibernate.dialect.IngresDialect
-01:48:31,530  WARN StandardDialectResolver:95 - Unknown Ingres major version [-9999] using Ingres 9.2 dialect
-01:48:31,530  INFO Dialect:135 - Using dialect: org.hibernate.dialect.IngresDialect
-01:48:31,530  WARN StandardDialectResolver:109 - Unknown Microsoft SQL Server major version [-9999] using SQL Server 2000 dialect
-01:48:31,530  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SQLServerDialect
-01:48:31,531  WARN StandardDialectResolver:109 - Unknown Microsoft SQL Server major version [-9999] using SQL Server 2000 dialect
-01:48:31,532  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SQLServerDialect
-01:48:31,534  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SybaseASE15Dialect
-01:48:31,536  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SybaseASE15Dialect
-01:48:31,538  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SybaseAnywhereDialect
-01:48:31,580  INFO Dialect:135 - Using dialect: org.hibernate.dialect.InformixDialect
-01:48:31,580  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
-01:48:31,585  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
-01:48:31,586  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
-01:48:31,587  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
-01:48:31,589  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
-01:48:31,591  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
-01:48:31,592  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
-01:48:31,643  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle8iDialect
-01:48:31,658  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle9iDialect
-01:48:31,658  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle10gDialect
-01:48:31,659  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle10gDialect
-01:48:31,685  WARN DialectFactory:72 - Dialect resolver class not found: org.hibernate.dialect.NoSuchDialectResolver
-01:48:31,686  WARN DialectFactory:75 - Could not instantiate dialect resolver class
+21:50:31,209  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
+21:50:31,211  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
+21:50:31,242  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
+21:50:31,243  INFO Dialect:135 - Using dialect: org.hibernate.dialect.H2Dialect
+21:50:31,244  INFO Dialect:135 - Using dialect: org.hibernate.dialect.MySQLDialect
+21:50:31,246  INFO Dialect:135 - Using dialect: org.hibernate.dialect.PostgreSQLDialect
+21:50:31,250  INFO DriverManagerConnectionProvider:170 - cleaning up connection pool: jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1
+21:50:31,250  INFO DriverManagerConnectionProvider:170 - cleaning up connection pool: jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1
+21:50:31,252  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DerbyDialect
+21:50:31,255  WARN DerbyDialect:70 - Unable to load/access derby driver class sysinfo to check versions : java.lang.ClassNotFoundException: org.apache.derby.tools.sysinfo
+21:50:31,256  WARN StandardDialectResolver:95 - Unknown Ingres major version [-9999] using Ingres 9.2 dialect
+21:50:31,256  INFO Dialect:135 - Using dialect: org.hibernate.dialect.IngresDialect
+21:50:31,257  WARN StandardDialectResolver:95 - Unknown Ingres major version [-9999] using Ingres 9.2 dialect
+21:50:31,257  INFO Dialect:135 - Using dialect: org.hibernate.dialect.IngresDialect
+21:50:31,258  WARN StandardDialectResolver:95 - Unknown Ingres major version [-9999] using Ingres 9.2 dialect
+21:50:31,258  INFO Dialect:135 - Using dialect: org.hibernate.dialect.IngresDialect
+21:50:31,258  WARN StandardDialectResolver:109 - Unknown Microsoft SQL Server major version [-9999] using SQL Server 2000 dialect
+21:50:31,259  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SQLServerDialect
+21:50:31,260  WARN StandardDialectResolver:109 - Unknown Microsoft SQL Server major version [-9999] using SQL Server 2000 dialect
+21:50:31,260  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SQLServerDialect
+21:50:31,262  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SybaseASE15Dialect
+21:50:31,264  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SybaseASE15Dialect
+21:50:31,266  INFO Dialect:135 - Using dialect: org.hibernate.dialect.SybaseAnywhereDialect
+21:50:31,268  INFO Dialect:135 - Using dialect: org.hibernate.dialect.InformixDialect
+21:50:31,269  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
+21:50:31,274  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
+21:50:31,275  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
+21:50:31,277  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
+21:50:31,278  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
+21:50:31,279  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
+21:50:31,280  INFO Dialect:135 - Using dialect: org.hibernate.dialect.DB2Dialect
+21:50:31,291  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle8iDialect
+21:50:31,300  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle9iDialect
+21:50:31,301  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle10gDialect
+21:50:31,301  INFO Dialect:135 - Using dialect: org.hibernate.dialect.Oracle10gDialect
+21:50:31,306  WARN DialectFactory:72 - Dialect resolver class not found: org.hibernate.dialect.NoSuchDialectResolver
+21:50:31,316  WARN DialectFactory:75 - Could not instantiate dialect resolver class
 java.lang.ClassCastException: java.lang.Object cannot be cast to org.hibernate.dialect.resolver.DialectResolver
 	at org.hibernate.dialect.resolver.DialectFactory.registerDialectResolver(DialectFactory.java:68)
 	at org.hibernate.dialect.resolver.DialectFactoryTest.testCustomDialects(DialectFactoryTest.java:140)
@@ -63,15 +64,15 @@ java.lang.ClassCastException: java.lang.Object cannot be cast to org.hibernate.d
 	at java.lang.reflect.Method.invoke(Method.java:616)
 	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
 	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
-01:48:31,693  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:31,694  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:31,694  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:31,694  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect21
-01:48:31,694  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:31,695  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:31,695  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MySpecialDB2Dialect
-01:48:31,695  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:31,696  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:31,696  WARN AbstractDialectResolver:66 - Error executing resolver [org.hibernate.dialect.TestingDialects$ErrorDialectResolver2@7a2431b9] : This is a trap!
-01:48:31,696  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:31,697  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,320  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,321  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,321  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,321  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect21
+21:50:31,322  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,322  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,323  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MySpecialDB2Dialect
+21:50:31,323  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,323  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,329  WARN AbstractDialectResolver:66 - Error executing resolver [org.hibernate.dialect.TestingDialects$ErrorDialectResolver2@6477eb97] : This is a trap!
+21:50:31,329  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,329  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null

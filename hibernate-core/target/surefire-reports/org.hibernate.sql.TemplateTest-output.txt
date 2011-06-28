@@ -1,5 +1,5 @@
-01:48:32,218  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
-01:48:32,374 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,584  INFO Dialect:135 - Using dialect: org.hibernate.dialect.HSQLDialect
+21:50:31,620 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -10,7 +10,7 @@
        |  \-[IDENT] NodeSupport: '$PlaceHolder$.sql'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,405 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,625 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -21,7 +21,7 @@
        |  \-[IDENT] NodeSupport: '$PlaceHolder$."sql"'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,406 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,626 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -32,7 +32,7 @@
        |  \-[IDENT] NodeSupport: '$PlaceHolder$.prop'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,407 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,628 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -43,7 +43,7 @@
        |  \-[IDENT] NodeSupport: 'lower($PlaceHolder$.sql)'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,409 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,629 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -54,7 +54,7 @@
        |  \-[IDENT] NodeSupport: 'qual.lower($PlaceHolder$.prop)'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,410 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,631 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -65,7 +65,7 @@
        |  \-[IDENT] NodeSupport: 'qual1.qual2.lower($PlaceHolder$.prop)'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,411 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,632 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -76,7 +76,7 @@
        |  \-[IDENT] NodeSupport: 'lower($PlaceHolder$.prop)'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,414 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,634 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -87,14 +87,14 @@
        |  \-[IDENT] NodeSupport: 'lower(upper($PlaceHolder$.sql))'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,415 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,636 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     \-[SORT_SPEC] SortSpecification: '{sort specification}'
        +-[SORT_KEY] SortKey: 'sort key'
        |  \-[IDENT] NodeSupport: 'mod(mod($PlaceHolder$.sql, 2), 3)'
        \-[ORDER_SPEC] OrderingSpecification: 'asc'
 
-01:48:32,528 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,638 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -105,7 +105,7 @@
        |  \-[IDENT] NodeSupport: '$PlaceHolder$."sql"'
        \-[COLLATE] CollationSpecification: 'your_collation'
 
-01:48:32,530 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,640 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{sort specification}'
     |  +-[SORT_KEY] SortKey: 'sort key'
@@ -121,7 +121,7 @@
        |  \-[IDENT] NodeSupport: '$PlaceHolder$."sql"'
        \-[ORDER_SPEC] OrderingSpecification: 'desc'
 
-01:48:32,533 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,641 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     +-[SORT_SPEC] SortSpecification: '{{sort specification}}'
     |  +-[SORT_KEY] SortKey: '{{sort key}}'
@@ -132,7 +132,7 @@
        |  \-[IDENT] NodeSupport: '$PlaceHolder$.comp_2'
        \-[ORDER_SPEC] OrderingSpecification: 'asc'
 
-01:48:32,534 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
+21:50:31,642 TRACE OrderByFragmentTranslator:71 - --- {order-by fragment} ---
  \-[ORDER_BY] OrderByFragment: 'order-by'
     \-[SORT_SPEC] SortSpecification: '{sort specification}'
        +-[SORT_KEY] SortKey: 'sort key'

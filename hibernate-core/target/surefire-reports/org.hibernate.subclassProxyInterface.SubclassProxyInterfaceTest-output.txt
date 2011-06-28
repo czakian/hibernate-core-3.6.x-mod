@@ -1,51 +1,50 @@
-01:48:26,851  INFO Configuration:817 - Reading mappings from resource: org/hibernate/subclassProxyInterface/Person.hbm.xml
-01:48:26,852  INFO Configuration:770 - Reading mappings from resource: org/hibernate/subclassProxyInterface/Person.hbm.xml
-01:48:27,513  INFO DriverManagerConnectionProvider:170 - cleaning up connection pool: jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1
-01:48:27,514  INFO DriverManagerConnectionProvider:170 - cleaning up connection pool: jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1
-01:48:27,645  WARN DTDEntityResolver:73 - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
-01:48:27,950  INFO HbmBinder:353 - Mapping class: org.hibernate.subclassProxyInterface.Person -> Person
-01:48:28,032  INFO HbmBinder:886 - Mapping subclass: org.hibernate.subclassProxyInterface.Doctor -> Person
-01:48:28,033  INFO Configuration:1676 - Hibernate Validator not found: ignoring
-01:48:28,033  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
-01:48:28,086  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
-01:48:28,088  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
-01:48:28,131  WARN UserSuppliedConnectionProvider:46 - No connection properties specified - the user must supply JDBC connections
-01:48:28,132  INFO Dialect:135 - Using dialect: org.hibernate.dialect.H2Dialect
-01:48:28,132  INFO JdbcSupportLoader:70 - Disabling contextual LOB creation as connection was null
-01:48:28,132  INFO TransactionFactoryFactory:62 - Using default transaction strategy (direct JDBC transactions)
-01:48:28,133  INFO TransactionManagerLookupFactory:83 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
-01:48:28,133  INFO SettingsFactory:179 - Automatic flush during beforeCompletion(): disabled
-01:48:28,133  INFO SettingsFactory:183 - Automatic session close at end of transaction: disabled
-01:48:28,133  INFO SettingsFactory:198 - Scrollable result sets: disabled
-01:48:28,133  INFO SettingsFactory:206 - JDBC3 getGeneratedKeys(): disabled
-01:48:28,133  INFO SettingsFactory:214 - Connection release mode: auto
-01:48:28,134  INFO SettingsFactory:241 - Default batch fetch size: 1
-01:48:28,134  INFO SettingsFactory:245 - Generate SQL with comments: disabled
-01:48:28,134  INFO SettingsFactory:249 - Order SQL updates by primary key: disabled
-01:48:28,134  INFO SettingsFactory:253 - Order SQL inserts for batching: disabled
-01:48:28,134  INFO SettingsFactory:431 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
-01:48:28,134  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
-01:48:28,134  INFO SettingsFactory:261 - Query language substitutions: {}
-01:48:28,135  INFO SettingsFactory:266 - JPA-QL strict compliance: disabled
-01:48:28,135  INFO SettingsFactory:271 - Second-level cache: enabled
-01:48:28,135  INFO SettingsFactory:275 - Query cache: disabled
-01:48:28,135  INFO SettingsFactory:406 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
-01:48:28,135  INFO SettingsFactory:285 - Optimize cache for minimal puts: disabled
-01:48:28,135  INFO SettingsFactory:294 - Structured second-level cache entries: disabled
-01:48:28,135  INFO SettingsFactory:323 - Statistics: disabled
-01:48:28,135  INFO SettingsFactory:327 - Deleted entity synthetic identifier rollback: disabled
-01:48:28,136  INFO SettingsFactory:343 - Default entity-mode: pojo
-01:48:28,136  INFO SettingsFactory:347 - Named query checking : enabled
-01:48:28,136  INFO SettingsFactory:351 - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
-01:48:28,143  INFO SessionFactoryImpl:202 - building session factory
-01:48:28,144  INFO BasicTypeRegistry:150 - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@6cf1f051
-01:48:28,144  INFO BasicTypeRegistry:150 - Type registration [clob] overrides previous : org.hibernate.type.ClobType@7fd88db7
-01:48:28,144  INFO BasicTypeRegistry:150 - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@7fd88db7
-01:48:28,144  INFO BasicTypeRegistry:150 - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@62402af3
-01:48:28,144  INFO BasicTypeRegistry:150 - Type registration [blob] overrides previous : org.hibernate.type.BlobType@62c3e9e9
-01:48:28,145  INFO BasicTypeRegistry:150 - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@62c3e9e9
-01:48:28,145  INFO BasicTypeRegistry:150 - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@2c31f2a7
-01:48:28,145  INFO BasicTypeRegistry:150 - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@331c89c
-01:48:28,145  INFO BasicTypeRegistry:150 - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@39697b67
-01:48:29,166  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
-01:48:29,167  INFO SessionFactoryImpl:927 - closing
+21:50:30,418  INFO Configuration:817 - Reading mappings from resource: org/hibernate/subclassProxyInterface/Person.hbm.xml
+21:50:30,418  INFO Configuration:770 - Reading mappings from resource: org/hibernate/subclassProxyInterface/Person.hbm.xml
+21:50:30,687  WARN DTDEntityResolver:73 - recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+21:50:30,803  INFO HbmBinder:353 - Mapping class: org.hibernate.subclassProxyInterface.Person -> Person
+21:50:30,820  INFO HbmBinder:886 - Mapping subclass: org.hibernate.subclassProxyInterface.Doctor -> Person
+21:50:30,821  INFO Configuration:1676 - Hibernate Validator not found: ignoring
+21:50:30,821  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+21:50:30,831  INFO DriverManagerConnectionProvider:170 - cleaning up connection pool: jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1
+21:50:30,842  INFO DefaultTraversableResolver:81 - Instantiated an instance of org.hibernate.validator.engine.resolver.JPATraversableResolver.
+21:50:30,843  INFO HibernateSearchEventListenerRegister:75 - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+21:50:30,845  WARN UserSuppliedConnectionProvider:46 - No connection properties specified - the user must supply JDBC connections
+21:50:30,845  INFO Dialect:135 - Using dialect: org.hibernate.dialect.H2Dialect
+21:50:30,846  INFO JdbcSupportLoader:70 - Disabling contextual LOB creation as connection was null
+21:50:30,846  INFO TransactionFactoryFactory:62 - Using default transaction strategy (direct JDBC transactions)
+21:50:30,846  INFO TransactionManagerLookupFactory:83 - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+21:50:30,846  INFO SettingsFactory:179 - Automatic flush during beforeCompletion(): disabled
+21:50:30,846  INFO SettingsFactory:183 - Automatic session close at end of transaction: disabled
+21:50:30,846  INFO SettingsFactory:198 - Scrollable result sets: disabled
+21:50:30,847  INFO SettingsFactory:206 - JDBC3 getGeneratedKeys(): disabled
+21:50:30,847  INFO SettingsFactory:214 - Connection release mode: auto
+21:50:30,847  INFO SettingsFactory:241 - Default batch fetch size: 1
+21:50:30,847  INFO SettingsFactory:245 - Generate SQL with comments: disabled
+21:50:30,847  INFO SettingsFactory:249 - Order SQL updates by primary key: disabled
+21:50:30,847  INFO SettingsFactory:253 - Order SQL inserts for batching: disabled
+21:50:30,847  INFO SettingsFactory:431 - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+21:50:30,847  INFO ASTQueryTranslatorFactory:47 - Using ASTQueryTranslatorFactory
+21:50:30,848  INFO SettingsFactory:261 - Query language substitutions: {}
+21:50:30,848  INFO SettingsFactory:266 - JPA-QL strict compliance: disabled
+21:50:30,848  INFO SettingsFactory:271 - Second-level cache: enabled
+21:50:30,848  INFO SettingsFactory:275 - Query cache: disabled
+21:50:30,848  INFO SettingsFactory:406 - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+21:50:30,848  INFO SettingsFactory:285 - Optimize cache for minimal puts: disabled
+21:50:30,848  INFO SettingsFactory:294 - Structured second-level cache entries: disabled
+21:50:30,849  INFO SettingsFactory:323 - Statistics: disabled
+21:50:30,849  INFO SettingsFactory:327 - Deleted entity synthetic identifier rollback: disabled
+21:50:30,849  INFO SettingsFactory:343 - Default entity-mode: pojo
+21:50:30,849  INFO SettingsFactory:347 - Named query checking : enabled
+21:50:30,849  INFO SettingsFactory:351 - Check Nullability in Core (should be disabled when Bean Validation is on): disabled
+21:50:30,856  INFO SessionFactoryImpl:202 - building session factory
+21:50:30,857  INFO BasicTypeRegistry:150 - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@4386d484
+21:50:30,857  INFO BasicTypeRegistry:150 - Type registration [blob] overrides previous : org.hibernate.type.BlobType@48ea48be
+21:50:30,857  INFO BasicTypeRegistry:150 - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@48ea48be
+21:50:30,857  INFO BasicTypeRegistry:150 - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@d4dd758
+21:50:30,857  INFO BasicTypeRegistry:150 - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@7174d93a
+21:50:30,857  INFO BasicTypeRegistry:150 - Type registration [clob] overrides previous : org.hibernate.type.ClobType@2e61a907
+21:50:30,857  INFO BasicTypeRegistry:150 - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@2e61a907
+21:50:30,858  INFO BasicTypeRegistry:150 - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@da0225b
+21:50:30,858  INFO BasicTypeRegistry:150 - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@c2f8b5a
+21:50:31,025  INFO SessionFactoryObjectFactory:105 - Not binding factory to JNDI, no JNDI name configured
+21:50:31,025  INFO SessionFactoryImpl:927 - closing

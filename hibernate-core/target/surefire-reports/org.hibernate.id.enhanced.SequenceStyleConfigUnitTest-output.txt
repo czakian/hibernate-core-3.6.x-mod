@@ -1,11 +1,11 @@
-01:48:30,468  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
-01:48:30,494  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$TableDialect
-01:48:30,507  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
-01:48:30,507  INFO SequenceStyleGenerator:175 - Forcing table use for sequence-style generator due to pooled optimizer selection where db does not support pooled sequences
-01:48:30,509  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$PooledSequenceDialect
-01:48:30,509  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$TableDialect
-01:48:30,510  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
-01:48:30,511  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
-01:48:30,511  WARN SequenceStyleGenerator:302 - config specified explicit optimizer of [none], but [increment_size=20; honoring optimizer setting
-01:48:30,518  INFO SequenceStyleGenerator:175 - Forcing table use for sequence-style generator due to pooled optimizer selection where db does not support pooled sequences
-01:48:30,518  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$PooledSequenceDialect
+21:50:31,177  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
+21:50:31,180  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$TableDialect
+21:50:31,182  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
+21:50:31,182  INFO SequenceStyleGenerator:175 - Forcing table use for sequence-style generator due to pooled optimizer selection where db does not support pooled sequences
+21:50:31,183  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$PooledSequenceDialect
+21:50:31,184  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$TableDialect
+21:50:31,184  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
+21:50:31,185  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$SequenceDialect
+21:50:31,185  WARN SequenceStyleGenerator:302 - config specified explicit optimizer of [none], but [increment_size=20; honoring optimizer setting
+21:50:31,187  INFO SequenceStyleGenerator:175 - Forcing table use for sequence-style generator due to pooled optimizer selection where db does not support pooled sequences
+21:50:31,187  INFO Dialect:135 - Using dialect: org.hibernate.id.enhanced.SequenceStyleConfigUnitTest$PooledSequenceDialect

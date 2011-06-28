@@ -1,18 +1,18 @@
-01:48:32,183  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:32,184  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:32,184  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect21
-01:48:32,184  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect22
-01:48:32,185  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect22
-01:48:32,185  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:32,185  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:32,185  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:32,186  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:32,186  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:32,186  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:32,186  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:32,186  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
-01:48:32,187  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:32,187  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
-01:48:32,187  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect21
-01:48:32,188  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect22
-01:48:32,188  WARN AbstractDialectResolver:66 - Error executing resolver [org.hibernate.dialect.resolver.BasicDialectResolver@40e7e8eb] : Could not instantiate specified Dialect class [java.lang.Object]
+21:50:31,559  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,559  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,560  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect21
+21:50:31,560  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect22
+21:50:31,560  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect22
+21:50:31,560  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,561  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,561  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,561  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,561  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,561  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,562  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,562  WARN AbstractDialectResolver:61 - Unable to query java.sql.DatabaseMetaData : null
+21:50:31,562  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,563  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect1
+21:50:31,563  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect21
+21:50:31,563  INFO Dialect:135 - Using dialect: org.hibernate.dialect.TestingDialects$MyDialect22
+21:50:31,564  WARN AbstractDialectResolver:66 - Error executing resolver [org.hibernate.dialect.resolver.BasicDialectResolver@2a869113] : Could not instantiate specified Dialect class [java.lang.Object]
